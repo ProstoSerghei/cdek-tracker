@@ -1,0 +1,21 @@
+{
+  "name": "track24",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Express service for track data lookup",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "express": "^5.2.1",
+    "cors": "^2.8.5",
+    "tough-cookie": "^4.1.4",
+    "axios-cookiejar-support": "^5.0.1"
+  }
+}
